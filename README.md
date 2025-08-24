@@ -9,7 +9,6 @@ A Menubar app that automatically sanitizes clipboard content by replacing sensit
 * **Customizable rules** – Define your own patterns and replacement text
 * **Menubar integration** – Runs quietly in the background
 * **Native macOS design** – Light & dark theme support
-* **Privacy focused** – All processing happens locally
 
 ## Installation
 
@@ -18,11 +17,6 @@ A Menubar app that automatically sanitizes clipboard content by replacing sensit
 ```bash
 make install
 make run
-```
-
-### Build Application
-
-```bash
 make build  # Creates macOS .app bundle
 ```
 
